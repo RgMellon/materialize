@@ -1,0 +1,238 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+h1 {
+   font-size: 2.3rem;
+ }
+nav {
+  background-color: white;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.menu {
+  background: white;
+  
+}
+
+.menu li> a {
+  color: black;
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.area-video {
+  margin-top: 4rem;
+}
+.noticias h1 {
+  font-size: 2rem;
+}
+
+.titulo-noticia {
+  margin: 0px;
+  margin-top: 18px;
+}
+
+.noticias {
+  background: #a40e12;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.footer-contrera {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.img-footer {
+  align-items: center;
+  display: flex;
+}
+
+@media(max-width: 600px) {
+  
+  .tel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+  }
+
+  .end {
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-contrera {
+    justify-content: center;
+  }
+
+  .img-footer {
+    margin-top: 1rem;
+  }
+
+}
+
+.brand-logo {
+  display: flex;
+  /* align-items: center; */
+  height: 87%;
+  margin-top: 4px;
+}
+
+
+
+.quero-comprar {
+  margin-top: 5rem;
+}
+
+
+.input-field input:focus + label {
+  color: #a40e12 !important;
+}
+/* label underline focus color */
+.row .input-field input:focus, textarea:focus {
+  border-bottom: 1px solid #a40e12 !important;
+  box-shadow: 0 1px 0 0 #a40e12 !important
+}
+
+.meu-text {
+  outline: none;
+  border: 0px;
+  border-bottom: 1px solid gray;
+}
+
+.header-contato {
+  display:flex; 
+  align-items:center;
+  padding-left: 1rem;
+}
+
+.header-contato h1 {
+  padding-left: 1rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.texto-contato p {
+  margin: 0;
+  margin-left: 17px;
+}
+
+.formulario-contato {
+   margin-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.grid-example {
+  border: 1px solid #eee;
+  margin: 7px 0;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  background-color: black;
+  color: white;
+  padding: 0;
+ 
+}
+
+.custom-col {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    height: 300px;
+}
+
+/* .gondula {
+  background-image: url('../img/categorias/gondolas.JPG');
+  background-repeat: no-repeat;
+  background-position: center; 
+} */
+
+
+.gondula, .carrinho, .abastecimento, .cesta, .display {
+  display: block;
+  position: relative;
+}
+
+.gondula::after {
+    content: "";
+    background-image: url('../img/categorias/gondolas.JPG');
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-position: center; 
+}
+
+.carrinho::after {
+  content: "";
+    background-image: url('../img/categorias/carrinho.jpg');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-position: center; 
+}
+
+
+.abastecimento::after {
+  content: "";
+    background-image: url('../img/categorias/abastecimento.jpg');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-position: center; 
+}
+
+.cesta::after {
+    content: "";
+    background-image: url('../img/categorias/cesta.jpg');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-position: center; 
+}
+
+.display::after {
+    content: "";
+    background-image: url('../img/categorias/display.jpg');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-position: center; 
+}
